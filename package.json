@@ -1,10 +1,32 @@
 {
   "name": "blazing-ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utility types library written in TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "/dist"
-  ]
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikolaszko/blazing-typescript.git"
+  },
+  "keywords": [
+    "typescript",
+    "utility",
+    "types",
+    "library"
+  ],
+  "author": "Mikołaj Sodzawiczny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikolaszko/blazing-typescript/issues"
+  },
+  "homepage": "https://github.com/mikolaszko/blazing-typescript#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
 }
