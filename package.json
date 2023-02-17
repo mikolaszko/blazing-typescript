@@ -1,6 +1,6 @@
 {
   "name": "blazing-ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Utility types library written in TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
