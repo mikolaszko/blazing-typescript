@@ -1,11 +1,11 @@
 {
-  "name": "blazing-ts",
+  "name": "@mikolaszko/blazing-ts",
   "version": "1.0.3",
   "description": "Utility types library written in TypeScript",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
   "files": [
-    "/dist"
+    "/src"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,5 +28,8 @@
   "homepage": "https://github.com/mikolaszko/blazing-typescript#readme",
   "devDependencies": {
     "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "npm-packlist": "^7.0.4"
   }
 }
