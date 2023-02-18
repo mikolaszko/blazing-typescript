@@ -8,7 +8,7 @@
     "dist"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   "keywords": [
     "typescript",
     "utility",
+    "typesafety",
     "types",
     "library"
   ],
@@ -28,6 +29,5 @@
   "homepage": "https://github.com/mikolaszko/blazing-typescript#readme",
   "devDependencies": {
     "typescript": "^4.9.5"
-  },
-  "dependencies": {}
+  }
 }

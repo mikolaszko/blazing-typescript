@@ -4,10 +4,14 @@
     "target": "es5",                /* Specify ECMAScript target version: */
     "module": "commonjs",           /* 'none', 'commonjs', 'amd', 'system', etc */
     "declaration": true,            /* Concatenate & emit output to single file.*/
-    "outDir": "lib",                /* Redirect output to the directory. */
+    "outDir": "dist",                /* Redirect output to the directory. */
     "esModuleInterop": true,        /* Enables intero between CommonJS and ES */
     "skipLibCheck": true,           /* Skip type checking of declaration files. */
-    "forceConsistentCasingInFileNames": true /* Disallow inconsistently */
+    "forceConsistentCasingInFileNames": true, /* Disallow inconsistently */
+    "watch": false,
+    "pretty": true, /* Stylize errors and messages using color and context (experimental). */
+    "removeComments": false, /* Do not emit comments to output. */
+    "resolveJsonModule": true, /* Include modules imported with '.json' extension. */
   },
   "include": [
     "./src/**/*"
