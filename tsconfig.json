@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "rootDir": "./",
+    "baseUrl": ".",
     "incremental": true,            /* Enable incremental compilation */
     "target": "es5",                /* Specify ECMAScript target version: */
     "module": "commonjs",           /* 'none', 'commonjs', 'amd', 'system', etc */
@@ -14,7 +15,7 @@
     "removeComments": false, /* Do not emit comments to output. */
     "resolveJsonModule": true, /* Include modules imported with '.json' extension. */
     "paths": {
-      "blzt": ["./src/index.ts"]
+      "blzt": ["src/index.ts"]
     }
   },
   "include": [
